@@ -121,7 +121,7 @@ app.post("/api/buy", (req, res) => {
   const amountSakai = (amountToken / 10 ** decimals).toLocaleString("en-US", {
     maximumFractionDigits: 2,
   });
-  const amountUSDT = (amountUsd / 10 ** decimals).toLocaleString("en-US", {
+  const amountUSDT = (tokenId?.length * 10).toLocaleString("en-US", {
     maximumFractionDigits: 2,
   });
   const _message = [
