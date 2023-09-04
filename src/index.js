@@ -34,7 +34,7 @@ bot.command("vault", async (ctx) => {
         inline_keyboard: [
           [
             {
-              text: "🔗 Join The Vault",
+              text: "🎟 Join The Vault 🎟",
               url: "https://app.sakaivault.io/vault",
             },
           ],
@@ -155,7 +155,7 @@ app.post("/api/buy", (req, res) => {
         inline_keyboard: [
           [
             {
-              text: "🔗 Join The Vault",
+              text: "🎟 Join The Vault 🎟",
               url: "https://app.sakaivault.io/vault",
             },
           ],
